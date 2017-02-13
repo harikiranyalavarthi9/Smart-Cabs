@@ -1,0 +1,136 @@
+::-webkit-input-placeholder {
+  color: #743db0;
+  opacity: 0.9;
+}
+
+::-moz-placeholder {
+  color: #743db0;
+  opacity: 0.9;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background: #422364;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #8e5bc5;
+}
+
+a {
+  color: #e7572c;
+}
+a:hover, a:focus, a:active {
+  color: #e7572c;
+  text-decoration: underline;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+.outer {
+  margin-top: 5%;
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+  margin: auto;
+}
+.container .form {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #8e5bc5;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  background: #ededed;
+  color: #743db0;
+  padding: 10px 12px;
+  border-radius: 3px;
+  border: solid 1px;
+  border-color: transparent;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.input:focus {
+  color: #8e5bc5;
+  background: #fff;
+  border-color: #e7572c;
+}
+
+.submit {
+  background: #e7572c;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 12px;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 0px 1px 1px #c94017;
+  -webkit-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
+.submit:active, .submit:focus, .submit:hover {
+  background: #c94017;
+}
+.submit:active, .submit:focus {
+  box-shadow: inset 0px 1px 2px #9b3112;
+}
+
+.split {
+  display: none;
+}
+
+label {
+  color: #743db0;
+}
+
+#infinity {
+  position: relative;
+  width: 125px;
+  height: 70px;
+  margin: auto;
+}
+
+#infinity:before,
+#infinity:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border: 16px solid #e7572c;
+  border-radius: 50px 50px 0 50px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#infinity:after {
+  left: auto;
+  right: 0;
+  border-radius: 50px 50px 50px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

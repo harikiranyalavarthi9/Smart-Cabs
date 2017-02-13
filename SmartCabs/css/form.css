@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body {
+	  background:#2d3b36 url(http://www.luismruiz.com/img/blured.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    padding-top:100px;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 450px;
+    height: 800px;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+
+
+
+h2,h4{
+color:#70A0CD;
+}
+
+h1{
+color:#0055A6;
+}
+.container {
+  margin: 1em;
+  text-align: center;
+}
+
+
+
+.btn--style2 {
+  background: -webkit-linear-gradient(285deg, #E5F1FD 15%, #C9E2FA 28%, #C9E2FA 47%, #C9E2FA 48%, #EBF6FF 48%, #EBF6FF 100%);
+  background: linear-gradient(165deg, #E5F1FD 15%, #C9E2FA 28%, #C9E2FA 47%, #C9E2FA 48%, #EBF6FF 48%, #EBF6FF 100%);
+  color: #0055A6;
+  background-size: 500% 100%;
+  -webkit-transition: all, .2s, ease-in-out;
+          transition: all, .2s, ease-in-out;
+}
+
+
+.btn {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  margin: 1em;
+  font-size: 2em;
+  padding: 1em 2em;
+  border: 0;
+  border-radius: .25em;
+  background-position: 50% 0;
+  box-sizing: border-box;
+  background-repeat: repeat;
+  position: relative;
+  top: 0;
+}
+.btn:hover {
+  background-position: 0 -70%;
+}
+.btn:focus {
+  outline: none;
+  text-decoration: underline;
+  background-position: 0 -70%;
+}
+.btn:active {
+  background-position: 0 -70%;
+  top: 2px;
+}
+
+
